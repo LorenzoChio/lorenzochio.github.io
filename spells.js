@@ -284,6 +284,8 @@ var span = document.getElementsByClassName("close")[0];
 let spellSchool;
 let spellNumber;
 
+
+
 function modalFiller(school, number) {
     spellSchool = school;
     spellNumber = number;
@@ -312,21 +314,13 @@ window.onclick = function(event) {
   }
 }
 
-/*let storageTest;
-
-function localStorageStoreTest() {
-    localStorage.setItem("item", 17);
+/*function difficultyUpdate() {
+    for(let i=0; i<10; i++) {
+        chronomancerSpells[i].target += 2;
+        summonerSpells[i].target += 2;
+        enchanterSpells[i].target += 2;
+        console.log(chronomancerSpells[0].target);
+        console.log("Hello")
+    }
 }
-localStorageStoreTest();
-
-function localStorageSum() {
-    localStorage.setItem("item", localStorage.getItem("item") + 1);
-    console.log(localStorageRetrieveTest());
-}
-
-function localStorageRetrieveTest() {
-    return localStorage.getItem("item");
-}
-localStorageRetrieveTest();
-
-document.getElementById("localStorageTestDiv").innerHTML = localStorageRetrieveTest();*/
+difficultyUpdate();*/

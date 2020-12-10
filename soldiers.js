@@ -381,9 +381,11 @@ function updateSoldier(row, name) {
 updateWarband();*/
 
 let arrWizard = [6, "+2", "+0", 10, "+4", 14];
+
 if(localStorage.getItem("wizardStats")){
     arrWizard = localStorage.getItem("wizardStats").split(",");
 }
+
 let nameWizard;
 let nameApprentice;
 let schoolWizard;
@@ -471,4 +473,3 @@ function lvlUp(reference) {
         console.log(arrWizard);
     }
 }
-
