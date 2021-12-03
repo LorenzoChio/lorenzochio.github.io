@@ -1,0 +1,13 @@
+.shopGrid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 10px;
+
+    img {
+        width: 300px;
+        height: 220px;
+    }
+}
