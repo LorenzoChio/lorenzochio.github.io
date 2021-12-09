@@ -9,3 +9,15 @@
         color: white;
     }
 }
+
+.nombre {
+    font-size: 1.5em;
+}
+
+.redondeado {
+    border-radius: 5%;
+}
+
+.redondeado:hover {
+    border-radius: 0%;
+}

@@ -32,9 +32,22 @@ a:link:hover {
 main {
   background-color: #3c3c3c; }
 
+h1 {
+  text-align: center;
+  color: #b4b4b4; }
+
 .imgCont img {
   width: 400px;
   height: 280px; }
 
 .imgCont p {
   color: white; }
+
+.nombre {
+  font-size: 1.5em; }
+
+.redondeado {
+  border-radius: 5%; }
+
+.redondeado:hover {
+  border-radius: 0%; }
